@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    color: #616161;
+}
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+.testimonials {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+.testimonials .card {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    background: ghostwhite;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+} 
+p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+h4 {
+    padding-left: 15px;
+}
+h5 {
+    padding-left: 15px;
+}
+button i {
+    color: white;
+}
+#isa {
+    width: 100px;
+    height: 70px;
+    padding-left: 40px;
+}
+.logo {
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+i {
+    color: #616161;
+    margin-bottom: 10px;
+}
+.social {
+    color: #616161;
+}
+#yp {
+    width: 30px;
+    height: 30px;
+}
+.copyright {
+    color: #616161;
+}
